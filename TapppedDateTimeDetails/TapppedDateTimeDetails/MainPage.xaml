@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:calendar="clr-namespace:Syncfusion.Maui.Calendar;assembly=Syncfusion.Maui.Calendar"
+             xmlns:local="clr-namespace:TapppedDateTimeDetails"
+             x:Class="TapppedDateTimeDetails.MainPage">
+
+    <ContentPage.Content>
+        <calendar:SfCalendar x:Name="calendar">
+            <calendar:SfCalendar.Behaviors>
+                <local:CalendarBehavior />
+            </calendar:SfCalendar.Behaviors>
+        </calendar:SfCalendar>
+    </ContentPage.Content>
+
+</ContentPage>
