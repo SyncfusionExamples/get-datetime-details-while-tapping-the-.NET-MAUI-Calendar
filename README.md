@@ -1,8 +1,8 @@
-# How to get Datetime details while tapping the .NET MAUI Calendar
+# How to get Datetime Details in the .NET MAUI Calendar (SfCalendar)
 
 This repository contains a sample to get the Datetime details while tapping using the [Syncfusion .NET MAUI Calendar](https://help.syncfusion.com/maui/calendar/getting-started) control.
 
-Please refer the KB through this [link](https://www.syncfusion.com/kb/13830/how-to-get-datetime-details-while-tapping-the-net-maui-calendar-sfcalendar).
+Please refer the KB through this [link](https://www.syncfusion.com/kb/13830/how-to-get-datetime-details-in-the-net-maui-calendar-sfcalendar).
 
 ## Syncfusion controls
 
