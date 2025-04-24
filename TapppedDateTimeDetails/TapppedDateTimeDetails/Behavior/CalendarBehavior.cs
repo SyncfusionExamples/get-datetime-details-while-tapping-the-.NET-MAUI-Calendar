@@ -15,7 +15,11 @@ namespace TapppedDateTimeDetails
 
         private void calendar_Tapped(object sender, CalendarTappedEventArgs e)
         {
-            App.Current.MainPage.DisplayAlert("Tapped date details", e.Date.ToString("dddd, dd MMMM yyyy"), "OK");
+            var mainPage = App.Current?.Windows.FirstOrDefault()?.Page;
+            if (mainPage != null)
+            {
+                mainPage.DisplayAlert("Tapped date details", e.Date.ToString("dddd, dd MMMM yyyy"), "OK");
+            }
         }
 
         protected override void OnDetachingFrom(SfCalendar bindable)
